@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0278B45F833742F8E5FFC294 /* Pods_TheMobieAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2B43F839AA565A102BE986 /* Pods_TheMobieAppUITests.framework */; };
+		2B5D6C3BDFFBD61DA2E59591 /* Pods_TheMobieApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E4AFE511543A6F53906F1F /* Pods_TheMobieApp.framework */; };
 		36E7C9372246F67E00F477A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E7C9362246F67E00F477A4 /* AppDelegate.swift */; };
 		36E7C9392246F67F00F477A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E7C9382246F67F00F477A4 /* ViewController.swift */; };
 		36E7C93C2246F67F00F477A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E7C93A2246F67F00F477A4 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		36E7C9412246F68000F477A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E7C93F2246F68000F477A4 /* LaunchScreen.storyboard */; };
 		36E7C94C2246F68000F477A4 /* TheMobieAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E7C94B2246F68000F477A4 /* TheMobieAppTests.swift */; };
 		36E7C9572246F68000F477A4 /* TheMobieAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E7C9562246F68000F477A4 /* TheMobieAppUITests.swift */; };
+		36E7C9652246FE4D00F477A4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E7C9642246FE4D00F477A4 /* MovieCell.swift */; };
+		6F777E90162204E2CF221FB2 /* Pods_TheMobieAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0447686864FA83906CF36E4 /* Pods_TheMobieAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		099A05F45A2D191748E11EE7 /* Pods-TheMobieApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMobieApp.release.xcconfig"; path = "Target Support Files/Pods-TheMobieApp/Pods-TheMobieApp.release.xcconfig"; sourceTree = "<group>"; };
+		0C4C462DD89B009E3A676094 /* Pods-TheMobieAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMobieAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TheMobieAppUITests/Pods-TheMobieAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		36E7C9332246F67E00F477A4 /* TheMobieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMobieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E7C9362246F67E00F477A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36E7C9382246F67F00F477A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		36E7C9522246F68000F477A4 /* TheMobieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMobieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E7C9562246F68000F477A4 /* TheMobieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMobieAppUITests.swift; sourceTree = "<group>"; };
 		36E7C9582246F68000F477A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E7C9642246FE4D00F477A4 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		395B7A09FE393B244C450672 /* Pods-TheMobieAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMobieAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TheMobieAppTests/Pods-TheMobieAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53E4AFE511543A6F53906F1F /* Pods_TheMobieApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheMobieApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6213176B5F62730B7D6E17FA /* Pods-TheMobieApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMobieApp.debug.xcconfig"; path = "Target Support Files/Pods-TheMobieApp/Pods-TheMobieApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8F25AEBE0A8FA242E98519A8 /* Pods-TheMobieAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMobieAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TheMobieAppUITests/Pods-TheMobieAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A0447686864FA83906CF36E4 /* Pods_TheMobieAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheMobieAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2B43F839AA565A102BE986 /* Pods_TheMobieAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheMobieAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5821A46A7DD45FB34339CE6 /* Pods-TheMobieAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMobieAppTests.release.xcconfig"; path = "Target Support Files/Pods-TheMobieAppTests/Pods-TheMobieAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5D6C3BDFFBD61DA2E59591 /* Pods_TheMobieApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F777E90162204E2CF221FB2 /* Pods_TheMobieAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0278B45F833742F8E5FFC294 /* Pods_TheMobieAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				36E7C94A2246F68000F477A4 /* TheMobieAppTests */,
 				36E7C9552246F68000F477A4 /* TheMobieAppUITests */,
 				36E7C9342246F67E00F477A4 /* Products */,
+				9B9EFF26809BBD1D9116CA3E /* Pods */,
+				BBE9D0FC50F4E5AC0583A92A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +121,7 @@
 				36E7C93A2246F67F00F477A4 /* Main.storyboard */,
 				36E7C93D2246F68000F477A4 /* Assets.xcassets */,
 				36E7C93F2246F68000F477A4 /* LaunchScreen.storyboard */,
+				36E7C9642246FE4D00F477A4 /* MovieCell.swift */,
 				36E7C9422246F68000F477A4 /* Info.plist */,
 			);
 			path = TheMobieApp;
@@ -125,6 +145,30 @@
 			path = TheMobieAppUITests;
 			sourceTree = "<group>";
 		};
+		9B9EFF26809BBD1D9116CA3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6213176B5F62730B7D6E17FA /* Pods-TheMobieApp.debug.xcconfig */,
+				099A05F45A2D191748E11EE7 /* Pods-TheMobieApp.release.xcconfig */,
+				395B7A09FE393B244C450672 /* Pods-TheMobieAppTests.debug.xcconfig */,
+				F5821A46A7DD45FB34339CE6 /* Pods-TheMobieAppTests.release.xcconfig */,
+				0C4C462DD89B009E3A676094 /* Pods-TheMobieAppUITests.debug.xcconfig */,
+				8F25AEBE0A8FA242E98519A8 /* Pods-TheMobieAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BBE9D0FC50F4E5AC0583A92A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53E4AFE511543A6F53906F1F /* Pods_TheMobieApp.framework */,
+				A0447686864FA83906CF36E4 /* Pods_TheMobieAppTests.framework */,
+				BF2B43F839AA565A102BE986 /* Pods_TheMobieAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36E7C95B2246F68000F477A4 /* Build configuration list for PBXNativeTarget "TheMobieApp" */;
 			buildPhases = (
+				ED4B8B98977EC761B5543EF4 /* [CP] Check Pods Manifest.lock */,
 				36E7C92F2246F67E00F477A4 /* Sources */,
 				36E7C9302246F67E00F477A4 /* Frameworks */,
 				36E7C9312246F67E00F477A4 /* Resources */,
+				C864BF6147C307B9D5DE0059 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36E7C95E2246F68000F477A4 /* Build configuration list for PBXNativeTarget "TheMobieAppTests" */;
 			buildPhases = (
+				13E674851BBDCB14F14DD691 /* [CP] Check Pods Manifest.lock */,
 				36E7C9432246F68000F477A4 /* Sources */,
 				36E7C9442246F68000F477A4 /* Frameworks */,
 				36E7C9452246F68000F477A4 /* Resources */,
@@ -167,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36E7C9612246F68000F477A4 /* Build configuration list for PBXNativeTarget "TheMobieAppUITests" */;
 			buildPhases = (
+				5D66A2F10F4B9D7DF578110B /* [CP] Check Pods Manifest.lock */,
 				36E7C94E2246F68000F477A4 /* Sources */,
 				36E7C94F2246F68000F477A4 /* Frameworks */,
 				36E7C9502246F68000F477A4 /* Resources */,
@@ -251,6 +299,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13E674851BBDCB14F14DD691 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheMobieAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D66A2F10F4B9D7DF578110B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheMobieAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C864BF6147C307B9D5DE0059 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheMobieApp/Pods-TheMobieApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheMobieApp/Pods-TheMobieApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED4B8B98977EC761B5543EF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheMobieApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36E7C92F2246F67E00F477A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +399,7 @@
 			files = (
 				36E7C9392246F67F00F477A4 /* ViewController.swift in Sources */,
 				36E7C9372246F67E00F477A4 /* AppDelegate.swift in Sources */,
+				36E7C9652246FE4D00F477A4 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +572,7 @@
 		};
 		36E7C95C2246F68000F477A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6213176B5F62730B7D6E17FA /* Pods-TheMobieApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +590,7 @@
 		};
 		36E7C95D2246F68000F477A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099A05F45A2D191748E11EE7 /* Pods-TheMobieApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +608,7 @@
 		};
 		36E7C95F2246F68000F477A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395B7A09FE393B244C450672 /* Pods-TheMobieAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +629,7 @@
 		};
 		36E7C9602246F68000F477A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5821A46A7DD45FB34339CE6 /* Pods-TheMobieAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +650,7 @@
 		};
 		36E7C9622246F68000F477A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4C462DD89B009E3A676094 /* Pods-TheMobieAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +670,7 @@
 		};
 		36E7C9632246F68000F477A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F25AEBE0A8FA242E98519A8 /* Pods-TheMobieAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

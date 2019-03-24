@@ -1,0 +1,6 @@
+framework module Pods_TheMobieAppUITests {
+  umbrella header "Pods-TheMobieAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
